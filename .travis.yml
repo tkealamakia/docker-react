@@ -6,4 +6,4 @@ before_install:
   - docker build -t tkealamakia/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run tkealamakia/docker-react npm run test -- --coverage
+  - docker run -e CI=true tkealamakia/docker-react npm run test
