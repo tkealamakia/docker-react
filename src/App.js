@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 				<p>
 					Hello CI on EBS!
+        </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
